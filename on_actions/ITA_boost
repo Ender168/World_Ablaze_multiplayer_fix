@@ -1,0 +1,45 @@
+on_actions = {
+
+  # Applies once when a NEW game is started (also fires on load in some cases depending on hooks),
+  # so we guard it with a global flag.
+  on_startup = {
+    effect = {
+      if = {
+        limit = { NOT = { has_global_flag = italy_state_buffs_applied } }
+        set_global_flag = italy_state_buffs_applied
+
+        # =============================================================
+        # ITALY STATE BUFFS (IRON + FACTORIES)
+        # =============================================================
+        #
+        # ---- STEEL (resource) examples ----
+        # ROME
+        856 = { 
+				  add_resource = {
+				  	type = iron
+  					amount = 200
+  				}
+			  }
+        #
+        # ---- FACTORY examples (state-scope by numeric ID) ----
+        # ROME
+        856 = {
+          add_extra_state_shared_building_slots = 20
+          add_building_construction = {
+            type = arms_factory
+            level = 20
+            instant_build = yes
+          }
+        }
+        856 = {
+          add_extra_state_shared_building_slots = 20
+          add_building_construction = {
+            type = industrial_complex
+            level = 20
+            instant_build = yes
+          }
+        }
+      }
+    }
+  }
+}
