@@ -4,11 +4,10 @@ ideas = {
       allowed = { always = yes }
       removal_cost = -1
 
-      # Optional: set a vanilla icon if you want (uncomment and choose an existing GFX_idea_* sprite name)
-      # picture = GFX_idea_generic_army
+      picture = generic_build_infrastructure
 
       modifier = {
-        land_mastery_gain_factor = 0.10   # +10% Land doctrine mastery gain
+        land_mastery_gain_factor = 2.00   # +200% Land doctrine mastery gain
       }
     }
   }
