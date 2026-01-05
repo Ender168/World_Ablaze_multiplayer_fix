@@ -1,6 +1,6 @@
 ideas = {
   country = {
-    yourmod_mastery_boost_1939 = {
+    land_mastery_boost = {
       allowed = { always = yes }
       removal_cost = -1
 
