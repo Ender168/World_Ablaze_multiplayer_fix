@@ -1,0 +1,15 @@
+ideas = {
+  country = {
+    yourmod_mastery_boost_1939 = {
+      allowed = { always = yes }
+      removal_cost = -1
+
+      # Optional: set a vanilla icon if you want (uncomment and choose an existing GFX_idea_* sprite name)
+      # picture = GFX_idea_generic_army
+
+      modifier = {
+        land_mastery_gain_factor = 0.10   # +10% Land doctrine mastery gain
+      }
+    }
+  }
+}
