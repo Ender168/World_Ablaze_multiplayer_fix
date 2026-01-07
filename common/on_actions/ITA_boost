@@ -2,8 +2,8 @@ on_actions = {
   on_startup = {
     effect = {
       if = {
-        limit = { NOT = { has_global_flag = italy_state_buffs_applied } }
-        set_global_flag = italy_state_buffs_applied
+        limit = { NOT = { has_global_flag = wa_mp_fix_italy_state_buffs_applied } }
+        set_global_flag = wa_mp_fix_italy_state_buffs_applied
 
         # =============================================================
         # ITALY STATE BUFFS (IRON + FACTORIES)
