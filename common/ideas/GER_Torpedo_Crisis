@@ -1,0 +1,57 @@
+ideas = {
+  GER_unreliable_torpedoes = {
+
+    allowed = {
+      always = no # Added via on_action
+    }
+
+    allowed_civil_war = {
+      always = yes
+    }
+
+    picture = generic_navy_bonus
+
+    equipment_bonus = {
+      frigate = {
+        torpedo_attack = -0.75
+        instant = yes
+      }
+      destroyer = {
+        torpedo_attack = -0.75
+        instant = yes
+      }
+      light_cruiser = {
+        torpedo_attack = -0.75
+        instant = yes
+      }
+      submarine = {
+        torpedo_attack = -0.75
+        instant = yes
+      }
+
+      medium_fighter_multirole_airframe = {
+        naval_strike_attack = -0.75
+        naval_strike_targetting = -0.75
+        instant = yes
+      }
+
+      small_naval_bomber_airframe = {
+        naval_strike_attack = -0.75
+        naval_strike_targetting = -0.75
+        instant = yes
+      }
+
+      cv_small_naval_bomber_airframe = {
+        naval_strike_attack = -0.75
+        naval_strike_targetting = -0.75
+        instant = yes
+      }
+
+      medium_heavy_bomber_airframe = {
+        naval_strike_attack = -0.75
+        naval_strike_targetting = -0.75
+        instant = yes
+      }
+    }
+  }
+}
