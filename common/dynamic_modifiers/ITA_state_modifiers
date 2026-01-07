@@ -1,4 +1,4 @@
-wa_mp_fix_ita_boost = {
+wa_mp_fix_ita_boost_resources = {
   enable = { always = yes }
 
   icon = GFX_modifiers_increased_metal_production
