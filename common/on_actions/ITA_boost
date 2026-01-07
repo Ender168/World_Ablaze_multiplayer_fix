@@ -14,12 +14,15 @@ on_actions = {
         #
         # ---- STEEL (resource) examples ----
         # ROME
-        856 = { 
-				  add_resource = {
-				  	type = iron
-  					amount = 200
-  				}
-			  }
+        effect = {
+	      every_state = {
+	        limit = {
+	          state = 856
+	          is_controlled_by = ITA
+	        }
+	        add_dynamic_modifier = { modifier = wa_mp_fix_ita_boost_resources }
+	      }
+	    }
         #
         # ---- FACTORY examples (state-scope by numeric ID) ----
         # ROME
