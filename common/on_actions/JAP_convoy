@@ -1,15 +1,15 @@
 on_actions = {
   on_startup = {
     effect = {
-      GER = {
+      JAP = {
         if = {
-          limit = { NOT = { has_country_flag = wa_ger_convoys_added } }
-          set_country_flag = wa_ger_convoys_added
+          limit = { NOT = { has_country_flag = mp_fix_jap_convoys_added } }
+          set_country_flag = mp_fix_jap_convoys_added
 
           add_equipment_to_stockpile = {
             type = convoy_1
             amount = 200
-            producer = GER
+            producer = JAP
           }
         }
       }
