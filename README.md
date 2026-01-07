@@ -1,5 +1,5 @@
 # World_Ablaze_multiplayer_fix
-Small World Ablaze balance mod
+Small World Ablaze balance mod for multiplayer competitive games
 
 ## What it does
 - Adds a national spirit to **every country** starting **1939-01-01 +200% Land doctrine mastery gain** 
