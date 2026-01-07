@@ -1,6 +1,6 @@
 l_english:
-  yourmod_mastery_boost_1939:0 "Doctrine Intensification (1939+)"
-  yourmod_mastery_boost_1939_desc:0 "From 1 January 1939 onward, countries accelerate land doctrine development, increasing doctrine mastery gain."
+  land_mastery_boost:0 "Doctrine Intensification (1939+)"
+  land_mastery_boost_desc:0 "From 1 January 1939 onward, countries accelerate land doctrine development, increasing doctrine mastery gain."
 
   GER_unreliable_torpedoes:0 "Unreliable Torpedoes"
   GER_unreliable_torpedoes_desc:0 "Defective exploders and depth-keeping issues have severely reduced the effectiveness of torpedoes and naval air strikes."
