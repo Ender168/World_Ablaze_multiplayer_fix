@@ -3,8 +3,8 @@ on_actions = {
     effect = {
       JAP = {
         if = {
-          limit = { NOT = { has_country_flag = mp_fix_jap_convoys_added } }
-          set_country_flag = mp_fix_jap_convoys_added
+          limit = { NOT = { has_country_flag = wa_mp_fix_jap_convoys_added } }
+          set_country_flag = wa_mp_fix_jap_convoys_added
 
           add_equipment_to_stockpile = {
             type = convoy_1
