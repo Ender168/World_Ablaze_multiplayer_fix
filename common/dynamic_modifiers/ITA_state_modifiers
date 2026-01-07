@@ -1,0 +1,20 @@
+wa_mp_fix_ita_boost = {
+  enable = { always = yes }
+
+  icon = GFX_modifiers_increased_metal_production
+
+  # If Italy no longer controls the state, the modifier itself will be deleted.
+  remove_trigger = {
+    NOT = { is_controlled_by = ITA }
+  }
+
+  # state_resource_oil = 10
+  # state_resource_aluminium = 10
+  # state_resource_steel = 10
+  # state_resource_coal = 10
+  # state_resource_bauxite = 10
+  state_resource_iron = 200
+  # state_resource_chromium = 10
+  # state_resource_rubber = 10
+  # state_resource_tungsten = 10
+}
