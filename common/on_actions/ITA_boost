@@ -1,7 +1,4 @@
 on_actions = {
-
-  # Applies once when a NEW game is started (also fires on load in some cases depending on hooks),
-  # so we guard it with a global flag.
   on_startup = {
     effect = {
       if = {
