@@ -1,6 +1,6 @@
 ideas = {
   country = {
-    land_mastery_boost = {
+    wa_mp_land_mastery_boost = {
       allowed = { always = yes }
       removal_cost = -1
 
