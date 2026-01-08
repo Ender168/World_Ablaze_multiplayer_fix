@@ -8,18 +8,18 @@
 #          limit = {
 #            date >= 1939.9.1
 #            NOT = { date >= 1940.9.1 }
-#            NOT = { has_idea = GER_unreliable_torpedoes }
+#            NOT = { has_idea = wa_mp_fix_GER_unreliable_torpedoes }
 #          }
-#          add_ideas = GER_unreliable_torpedoes
+#          add_ideas = wa_mp_fix_GER_unreliable_torpedoes
 #        }
 #
 #        # Germany: remove the crisis from 1940-09-01
 #        if = {
 #          limit = {
 #            date >= 1940.9.1
-#            has_idea = GER_unreliable_torpedoes
+#            has_idea = wa_mp_fix_GER_unreliable_torpedoes
 #          }
-#          remove_ideas = GER_unreliable_torpedoes
+#          remove_ideas = wa_mp_fix_GER_unreliable_torpedoes
 #        }
 #      }
 #    }
