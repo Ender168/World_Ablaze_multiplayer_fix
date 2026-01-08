@@ -1,5 +1,5 @@
 ideas = {
-  GER_unreliable_torpedoes = {
+  wa_mp_fix_GER_unreliable_torpedoes = {
 
     allowed = {
       always = no # Added via on_action
