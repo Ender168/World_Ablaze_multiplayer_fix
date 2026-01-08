@@ -3,9 +3,9 @@ on_monthly = {
     if = {
       limit = {
         date >= 1938.12.31
-        NOT = { has_idea = land_mastery_boost }
+        NOT = { has_idea = wa_mp_fix_land_mastery_boost }
       }
-      add_ideas = land_mastery_boost
+      add_ideas = wa_mp_fix_land_mastery_boost
     }
   }
 }
