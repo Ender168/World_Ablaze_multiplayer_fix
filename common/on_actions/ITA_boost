@@ -10,11 +10,11 @@ on_actions = {
         # =============================================================
         #
         # ---- STEEL (resource) examples ----
-        # ROME
+        # Messina
         effect = {
 	      every_state = {
 	        limit = {
-	          state = 856
+	          state = 115
 	          is_controlled_by = ITA
 	        }
 	        add_dynamic_modifier = { modifier = wa_mp_fix_ita_boost_resources }
@@ -22,8 +22,8 @@ on_actions = {
 	    }
         #
         # ---- FACTORY examples (state-scope by numeric ID) ----
-        # ROME
-        856 = {
+        # Messina
+        115 = {
           add_extra_state_shared_building_slots = 20
           add_building_construction = {
             type = arms_factory
@@ -31,7 +31,7 @@ on_actions = {
             instant_build = yes
           }
         }
-        856 = {
+        115 = {
           add_extra_state_shared_building_slots = 20
           add_building_construction = {
             type = industrial_complex
@@ -39,7 +39,7 @@ on_actions = {
             instant_build = yes
           }
         }
-		856 = {
+		115 = {
           add_extra_state_shared_building_slots = 15
           add_building_construction = {
             type = dockyards
