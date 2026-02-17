@@ -2,10 +2,15 @@ on_monthly = {
   effect = {
     if = {
       limit = {
-        date >= 1938.12.31
-        NOT = { has_idea = wa_mp_fix_land_mastery_boost }
+        tag = GER
+        date >= 1939.1.1
+        NOT = { has_global_flag = axis_mastery_applied_1939 }
       }
-      add_ideas = wa_mp_fix_land_mastery_boost
+      set_global_flag = axis_mastery_applied_1939
+
+      GER = { if = { limit = { NOT = { has_idea = land_mastery_boost } } add_ideas = land_mastery_boost } }
+      ITA = { if = { limit = { NOT = { has_idea = land_mastery_boost } } add_ideas = land_mastery_boost } }
+      JAP = { if = { limit = { NOT = { has_idea = land_mastery_boost } } add_ideas = land_mastery_boost } }
     }
   }
 }
