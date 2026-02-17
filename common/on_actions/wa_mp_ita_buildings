@@ -1,0 +1,35 @@
+on_actions = {
+
+  on_state_control_changed = {
+    effect = {
+      if = {
+        limit = {
+          FROM = { tag = ITA }                      
+          FROM.FROM = { state = 115 }                
+          NOT = { FROM.FROM = { has_state_flag = wa_mp_ita_115_buildings_removed } }
+        }
+
+        FROM.FROM = {
+
+          if = {
+            limit = { has_state_flag = wa_mp_ita_115_mil_granted }
+            remove_building = { type = arms_factory level = 20 }
+          }
+
+          if = {
+            limit = { has_state_flag = wa_mp_ita_115_civ_granted }
+            remove_building = { type = industrial_complex level = 20 }
+          }
+
+          if = {
+            limit = { has_state_flag = wa_mp_ita_115_dock_granted }
+            remove_building = { type = dockyard level = 15 }
+          }
+
+          set_state_flag = wa_mp_ita_115_buildings_removed
+        }
+      }
+    }
+  }
+
+}
