@@ -10,10 +10,10 @@ wa_mp_fix_ita_boost_resources = {
 
   # state_resource_oil = 10
   # state_resource_aluminium = 10
-  # state_resource_steel = 10
+  state_resource_steel = 220
   # state_resource_coal = 10
   # state_resource_bauxite = 10
-  state_resource_iron = 200
+  # state_resource_iron = 10
   # state_resource_chromium = 10
   # state_resource_rubber = 10
   # state_resource_tungsten = 10
