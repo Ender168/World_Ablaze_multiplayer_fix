@@ -18,3 +18,21 @@ wa_mp_fix_ita_boost_resources = {
   # state_resource_rubber = 10
   # state_resource_tungsten = 10
 }
+
+ita_oil_resources_libya = {
+  icon = GFX_modifiers_increased_metal_production
+
+  # Resources work only after the focus and only while Italy controls the state
+  enable = {
+    is_controlled_by = ITA
+    ITA = { has_completed_focus = ITA_develop_the_empire }
+  }
+
+  # As soon as Italy has lost control (after focus), the modifier is PERMANENTLY deleted.
+  remove_trigger = {
+    ITA = { has_completed_focus = ITA_develop_the_empire }
+    NOT = { is_controlled_by = ITA }
+  }
+
+  state_resource_oil = 10
+}
