@@ -6,47 +6,33 @@ on_actions = {
         set_global_flag = wa_mp_fix_italy_state_buffs_applied
 
         # =============================================================
-        # ITALY STATE BUFFS (IRON + FACTORIES)
+        # SPECIAL RESOURCES (attach dynamic modifier to 7 states)
         # =============================================================
-        #
-        # ---- STEEL (resource) examples ----
-        # Messina
-        effect = {
-	      every_state = {
-	        limit = {
-	          state = 115
-	          is_controlled_by = ITA
-	        }
-	        add_dynamic_modifier = { modifier = wa_mp_fix_ita_boost_resources }
-	      }
-	    }
-        #
-        # ---- FACTORY examples (state-scope by numeric ID) ----
-        # Messina
+        random_country = {
+          448 = { add_dynamic_modifier = { modifier = ita_special_resources } }
+          661 = { add_dynamic_modifier = { modifier = ita_special_resources } }
+          449 = { add_dynamic_modifier = { modifier = ita_special_resources } }
+          662 = { add_dynamic_modifier = { modifier = ita_special_resources } }
+          450 = { add_dynamic_modifier = { modifier = ita_special_resources } }
+          663 = { add_dynamic_modifier = { modifier = ita_special_resources } }
+          451 = { add_dynamic_modifier = { modifier = ita_special_resources } }
+        }
+
+        # =============================================================
+        # ITALY STATE BUFFS (RESOURCES)
+        # =============================================================
         115 = {
-          add_extra_state_shared_building_slots = 20
-          add_building_construction = {
-            type = arms_factory
-            level = 20
-            instant_build = yes
+          if = {
+            limit = { is_controlled_by = ITA }
+            add_dynamic_modifier = { modifier = wa_mp_fix_ita_boost_resources }
           }
         }
-        115 = {
-          add_extra_state_shared_building_slots = 20
-          add_building_construction = {
-            type = industrial_complex
-            level = 20
-            instant_build = yes
-          }
-        }
-		115 = {
-          add_extra_state_shared_building_slots = 15
-          add_building_construction = {
-            type = dockyards
-            level = 15
-            instant_build = yes
-          }
-        }
+
+        # =============================================================
+        # START ITALY "FOCUS -> BUILDINGS" WATCHER
+        # (buildings will be added when the corresponding focuses are completed)
+        # =============================================================
+        ITA = { country_event = { id = wa_mp_ita_bld.10 days = 10 } }
       }
     }
   }
