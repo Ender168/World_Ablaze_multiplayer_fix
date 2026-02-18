@@ -24,3 +24,5 @@ l_english:
   wa_mp_fix_sov_industry.3.d:0 "Engineering units are dispatched to expand roads, depots, and utilities around remote extraction hubs. Better logistics means more reliable output."
   wa_mp_fix_sov_industry.3.a:0 "Send the engineers."
 
+  wa_ita_littorio_reinforced_armor:0 "Littorio: Reinforced Armor Scheme"
+  wa_ita_littorio_reinforced_armor_desc:0 "A dedicated reinforcement package for the Littorio-class battleship design. Unlocks an Italy-only heavy armor module and grants a ready-to-produce Littorio variant with +75 armor."
