@@ -1,4 +1,4 @@
-add_namespace = wa_mp_ita_bld
+add_namespace = wa_mp_ita_bld.10
 
 country_event = {
   id = wa_mp_ita_bld.1
