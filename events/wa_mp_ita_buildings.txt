@@ -8,11 +8,11 @@ country_event = {
   immediate = {
 
     # -------------------------------------------------------------
-    # MILITARY FACTORIES -> focus A
+    # MILITARY FACTORIES -> ITA_italian_army
     # -------------------------------------------------------------
     if = {
       limit = {
-        has_completed_focus = <FOCUS_ID_MIL_FACTORIES>
+        has_completed_focus = ITA_italian_army
         NOT = { has_country_flag = wa_mp_ita_115_mil_done }
         115 = { is_controlled_by = ITA }
       }
@@ -31,11 +31,11 @@ country_event = {
     }
 
     # -------------------------------------------------------------
-    # CIVILIAN FACTORIES -> focus B
+    # CIVILIAN FACTORIES -> ITA_italian_highways
     # -------------------------------------------------------------
     if = {
       limit = {
-        has_completed_focus = <FOCUS_ID_CIV_FACTORIES>
+        has_completed_focus = ITA_italian_highways
         NOT = { has_country_flag = wa_mp_ita_115_civ_done }
         115 = { is_controlled_by = ITA }
       }
@@ -54,11 +54,11 @@ country_event = {
     }
 
     # -------------------------------------------------------------
-    # DOCKYARDS -> focus C
+    # DOCKYARDS -> ITA_italian_navy
     # -------------------------------------------------------------
     if = {
       limit = {
-        has_completed_focus = <FOCUS_ID_DOCKYARDS>
+        has_completed_focus = ITA_italian_navy
         NOT = { has_country_flag = wa_mp_ita_115_dock_done }
         115 = { is_controlled_by = ITA }
       }
@@ -87,7 +87,7 @@ country_event = {
           NOT = { has_country_flag = wa_mp_ita_115_dock_done }
         }
       }
-      country_event = { id = wa_mp_ita_bld.1 days = 10 }
+      country_event = { id = wa_mp_ita_bld days = 10 }
     }
   }
 }
