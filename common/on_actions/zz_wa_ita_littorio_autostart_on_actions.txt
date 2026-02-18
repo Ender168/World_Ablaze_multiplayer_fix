@@ -1,0 +1,7 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            ITA = { country_event = { id = wa_ita_littorio.100 hours = 1 } }
+        }
+    }
+}
