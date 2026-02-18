@@ -24,7 +24,7 @@ on_actions = {
         115 = {
           if = {
             limit = { is_controlled_by = ITA }
-            add_dynamic_modifier = { modifier = wa_mp_fix_ita_boost_resources }
+            add_dynamic_modifier = { modifier = wa_mp_fix_ita_oil_resources_libya  }
           }
         }
 
