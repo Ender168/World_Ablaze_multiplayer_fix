@@ -82,7 +82,7 @@ country_event = {
   picture = GFX_report_event_industry
 
   option = {
-    name = wa_sov_infra.3.a
+    name = wa_mp_fix_sov_industry.3.a
 
     653 = {
       add_building_construction = {
