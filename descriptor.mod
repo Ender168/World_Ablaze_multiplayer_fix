@@ -1,12 +1,11 @@
 version="0.1.0"
 tags={
-    "Balance"
-    "Gameplay"
+  "Balance"
+  "Gameplay"
 }
 dependencies={
-	"World Ablaze (9.4)"
+  "World Ablaze (9.4)"
 }
-picture = thumbnail.png
-name="WA Multiplayer FIX"
-supported_version="1.17.3.0"
-path="mod/WA_Multiplayer_FIX"
+name="World Ablaze multiplayer fix"
+supported_version="1.17.*"
+# picture="thumbnail.png"
