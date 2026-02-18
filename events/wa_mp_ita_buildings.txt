@@ -1,7 +1,7 @@
 add_namespace = wa_mp_fix_ita_bld
 
 country_event = {
-  id = wa_mp_ita_bld.1
+  id = wa_mp_fix_ita_bld.1
   is_triggered_only = yes
   hidden = yes
 
@@ -13,7 +13,7 @@ country_event = {
     if = {
       limit = {
         has_completed_focus = ITA_italian_army
-        NOT = { has_country_flag = wa_mp_ita_115_mil_done }
+        NOT = { has_country_flag = wa_mp_fixita_115_mil_done }
         115 = { is_controlled_by = ITA }
       }
 
@@ -24,10 +24,10 @@ country_event = {
           level = 20
           instant_build = yes
         }
-        set_state_flag = wa_mp_ita_115_mil_granted
+        set_state_flag = wa_mp_fixita_115_mil_granted
       }
 
-      set_country_flag = wa_mp_ita_115_mil_done
+      set_country_flag = wa_mp_fixita_115_mil_done
     }
 
     # -------------------------------------------------------------
@@ -36,7 +36,7 @@ country_event = {
     if = {
       limit = {
         has_completed_focus = ITA_italian_highways
-        NOT = { has_country_flag = wa_mp_ita_115_civ_done }
+        NOT = { has_country_flag = wa_mp_fix_ita_115_civ_done }
         115 = { is_controlled_by = ITA }
       }
 
@@ -47,10 +47,10 @@ country_event = {
           level = 20
           instant_build = yes
         }
-        set_state_flag = wa_mp_ita_115_civ_granted
+        set_state_flag = wa_mp_fixita_115_civ_granted
       }
 
-      set_country_flag = wa_mp_ita_115_civ_done
+      set_country_flag = wa_mp_fix_ita_115_civ_done
     }
 
     # -------------------------------------------------------------
@@ -59,7 +59,7 @@ country_event = {
     if = {
       limit = {
         has_completed_focus = ITA_italian_navy
-        NOT = { has_country_flag = wa_mp_ita_115_dock_done }
+        NOT = { has_country_flag = wa_mp_fix_ita_115_dock_done }
         115 = { is_controlled_by = ITA }
       }
 
@@ -70,10 +70,10 @@ country_event = {
           level = 15
           instant_build = yes
         }
-        set_state_flag = wa_mp_ita_115_dock_granted
+        set_state_flag = wa_mp_fix_ita_115_dock_granted
       }
 
-      set_country_flag = wa_mp_ita_115_dock_done
+      set_country_flag = wa_mp_fix_ita_115_dock_done
     }
 
     # -------------------------------------------------------------
@@ -82,12 +82,12 @@ country_event = {
     if = {
       limit = {
         OR = {
-          NOT = { has_country_flag = wa_mp_ita_115_mil_done }
-          NOT = { has_country_flag = wa_mp_ita_115_civ_done }
-          NOT = { has_country_flag = wa_mp_ita_115_dock_done }
+          NOT = { has_country_flag = wa_mp_fix_ita_115_mil_done }
+          NOT = { has_country_flag = wa_mp_fix_ita_115_civ_done }
+          NOT = { has_country_flag = wa_mp_fix_ita_115_dock_done }
         }
       }
-      country_event = { id = wa_mp_ita_bld days = 10 }
+      country_event = { id = wa_mp_fix_ita_bld.1 days = 10 }
     }
   }
 }
