@@ -1,0 +1,20 @@
+add_namespace = wa_mp_fix_germany
+
+country_event = {
+  id = wa_mp_fix_germany.1
+  title = wa_mp_fix_germany.1.t
+  desc  = wa_mp_fix_germany.1.d
+  picture = GFX_report_event_german_soldiers
+
+  is_triggered_only = yes
+
+  trigger = { tag = GER }
+
+  immediate = {
+    add_manpower = 500000
+  }
+
+  option = {
+    name = wa_mp_fix_germany.1.a
+  }
+}
