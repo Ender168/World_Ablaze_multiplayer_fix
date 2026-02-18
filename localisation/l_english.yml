@@ -1,28 +1,34 @@
 l_english:
-  land_mastery_boost:0 "Doctrine Intensification (1939+)"
-  land_mastery_boost_desc:0 "From 1 January 1939 onward, countries accelerate land doctrine development, increasing doctrine mastery gain."
+  wa_mp_fix_land_mastery_boost:0 "Doctrine Intensification (1939+)"
+  wa_mp_fix_land_mastery_boost_desc:0 "From 1 January 1939 onward, Germany, Italy, and Japan accelerate land doctrine development, increasing doctrine mastery gain."
 
-  GER_unreliable_torpedoes:0 "Unreliable Torpedoes"
-  GER_unreliable_torpedoes_desc:0 "Defective exploders and depth-keeping issues have severely reduced the effectiveness of torpedoes and naval air strikes."
+  wa_mp_fix_GER_unreliable_torpedoes:0 "Unreliable Torpedoes"
+  wa_mp_fix_GER_unreliable_torpedoes_desc:0 "Defective exploders and depth-keeping issues have severely reduced the effectiveness of torpedoes and naval air strikes."
 
   ita_special_resources:0 "Italian Resource Program"
   ita_special_resources_desc:0 "Extra resources are available while Italy controls this state."
 
+  wa_mp_fix_ita_oil_resources_libya:0 "Libyan Oil Development"
+  wa_mp_fix_ita_oil_resources_libya_desc:0 "Additional oil output is available while Italy controls the state and after the focus \"Develop the Empire\" is completed."
+
   wa_mp_fix_germany.1.t:0 "France Capitulated"
   wa_mp_fix_germany.1.d:0 "With France out of the fight, Germany can redirect manpower to new fronts."
   wa_mp_fix_germany.1.a:0 "Proceed."
-  
+
   wa_mp_fix_sov_industry.1.t:0 "Western Industrial Expansion: Riga, Minsk, Kyiv"
   wa_mp_fix_sov_industry.1.d:0 "New construction brigades and equipment are redirected to the western industrial belt. To concentrate output where it matters most, factory construction is being fast-tracked in Riga, Minsk, and Kyiv."
   wa_mp_fix_sov_industry.1.a:0 "Authorize the builds in Riga, Minsk, and Kyiv."
-  
+
   wa_mp_fix_sov_industry.2.t:0 "Western Arsenal Program: Riga, Minsk, Kyiv"
   wa_mp_fix_sov_industry.2.d:0 "Production is shifted toward military needs. New military plants in Riga, Minsk, and Kyiv will shorten delivery times and reduce strain on long-distance supply routes."
   wa_mp_fix_sov_industry.2.a:0 "Expand the arsenal in Riga, Minsk, and Kyiv."
-  
+
   wa_mp_fix_sov_industry.3.t:0 "Resource Corridor Beyond the Urals"
   wa_mp_fix_sov_industry.3.d:0 "Engineering units are dispatched to expand roads, depots, and utilities around remote extraction hubs. Better logistics means more reliable output."
   wa_mp_fix_sov_industry.3.a:0 "Send the engineers."
 
   wa_ita_littorio_reinforced_armor:0 "Littorio: Reinforced Armor Scheme"
   wa_ita_littorio_reinforced_armor_desc:0 "A dedicated reinforcement package for the Littorio-class battleship design. Unlocks an Italy-only heavy armor module and grants a ready-to-produce Littorio variant with +75 armor."
+
+  wa_ita_ship_armor_370_140_plus75:0 "Reinforced Heavy Armor 370/140 (+75)"
+  wa_ita_ship_armor_370_140_plus75_desc:0 "An Italy-only reinforced heavy armor package for Littorio-class designs, trading speed and cost for substantially higher protection."
