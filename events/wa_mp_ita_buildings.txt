@@ -13,7 +13,7 @@ country_event = {
     if = {
       limit = {
         has_completed_focus = ITA_italian_army
-        NOT = { has_country_flag = wa_mp_fixita_115_mil_done }
+        NOT = { has_country_flag = wa_mp_fix_ita_115_mil_done }
         115 = { is_controlled_by = ITA }
       }
 
@@ -24,10 +24,10 @@ country_event = {
           level = 20
           instant_build = yes
         }
-        set_state_flag = wa_mp_fixita_115_mil_granted
+        set_state_flag = wa_mp_fix_ita_115_mil_granted
       }
 
-      set_country_flag = wa_mp_fixita_115_mil_done
+      set_country_flag = wa_mp_fix_ita_115_mil_done
     }
 
     # -------------------------------------------------------------
@@ -47,7 +47,7 @@ country_event = {
           level = 20
           instant_build = yes
         }
-        set_state_flag = wa_mp_fixita_115_civ_granted
+        set_state_flag = wa_mp_fix_ita_115_civ_granted
       }
 
       set_country_flag = wa_mp_fix_ita_115_civ_done
