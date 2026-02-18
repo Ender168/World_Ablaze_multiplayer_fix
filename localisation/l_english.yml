@@ -7,3 +7,7 @@ l_english:
 
   ita_special_resources:0 "Italian Resource Program"
   ita_special_resources_desc:0 "Extra resources are available while Italy controls this state."
+
+  wa_mp_fix_germany.1.t:0 "France Capitulated"
+  wa_mp_fix_germany.1.d:0 "With France out of the fight, Germany can redirect manpower to new fronts."
+  wa_mp_fix_germany.1.a:0 "Proceed."
