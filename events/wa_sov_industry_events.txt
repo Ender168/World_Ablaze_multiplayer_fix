@@ -2,8 +2,8 @@ add_namespace = wa_mp_fix_sov_industry
 
 country_event = {
   id = wa_mp_fix_sov_industry.1
-  title = wa_sov_industry.1.t
-  desc = wa_sov_industry.1.d
+  title = wa_mp_fix_sov_industry.1.t
+  desc = wa_mp_fix_sov_industry.1.d
   picture = GFX_report_event_industry
   is_triggered_only = yes
 
@@ -39,8 +39,8 @@ country_event = {
 
 country_event = {
   id = wa_mp_fix_sov_industry.2
-  title = wa_sov_industry.2.t
-  desc = wa_sov_industry.2.d
+  title = wa_mp_fix_sov_industry.2.t
+  desc = wa_mp_fix_sov_industry.2.d
   picture = GFX_report_event_industry
   is_triggered_only = yes
 
@@ -77,8 +77,8 @@ country_event = {
 country_event = {
   id = wa_mp_fix_sov_industry.3
   is_triggered_only = yes
-  title = wa_sov_infra.3.t
-  desc  = wa_sov_infra.3.d
+  title = wa_mp_fix_sov_infra.3.t
+  desc  = wa_mp_fix_sov_infra.3.d
   picture = GFX_report_event_industry
 
   option = {
