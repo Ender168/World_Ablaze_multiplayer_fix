@@ -19,7 +19,7 @@ wa_mp_fix_ita_boost_resources = {
   # state_resource_tungsten = 10
 }
 
-ita_oil_resources_libya = {
+wa_mp_fix_ita_oil_resources_libya = {
   icon = GFX_modifiers_increased_metal_production
 
   # Resources work only after the focus and only while Italy controls the state
