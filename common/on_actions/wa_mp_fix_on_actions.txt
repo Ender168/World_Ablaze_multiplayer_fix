@@ -1,0 +1,19 @@
+on_actions = {
+
+  on_capitulation = {
+    effect = {
+      if = {
+        limit = {
+          ROOT = { tag = FRA }
+          GER = { exists = yes is_in_war_with = ROOT }
+          NOT = { has_global_flag = wa_mp_fix_ger_manpower_from_fra_capitulation_given }
+        }
+
+        set_global_flag = wa_mp_fix_ger_manpower_from_fra_capitulation_given
+
+        GER = { country_event = { id = wa_mp_fix_germany.1 } }
+      }
+    }
+  }
+
+}
