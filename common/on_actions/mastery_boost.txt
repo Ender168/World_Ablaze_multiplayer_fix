@@ -8,9 +8,9 @@ on_monthly = {
       }
       set_global_flag = axis_mastery_applied_1939
 
-      GER = { if = { limit = { NOT = { has_idea = land_mastery_boost } } add_ideas = land_mastery_boost } }
-      ITA = { if = { limit = { NOT = { has_idea = land_mastery_boost } } add_ideas = land_mastery_boost } }
-      JAP = { if = { limit = { NOT = { has_idea = land_mastery_boost } } add_ideas = land_mastery_boost } }
+      GER = { if = { limit = { NOT = { has_idea = wa_mp_fix_land_mastery_boost } } add_ideas = wa_mp_fix_land_mastery_boost } }
+      ITA = { if = { limit = { NOT = { has_idea = wa_mp_fix_land_mastery_boost } } add_ideas = wa_mp_fix_land_mastery_boost } }
+      JAP = { if = { limit = { NOT = { has_idea = wa_mp_fix_land_mastery_boost } } add_ideas = wa_mp_fix_land_mastery_boost } }
     }
   }
 }
