@@ -7,7 +7,7 @@ on_actions = {
           has_completed_focus = SOV_evolve_our_urban_centers
           NOT = { has_country_flag = wa_mp_fix_sov_30civs_done }
         }
-        set_country_flag = wa_sov_30civs_done
+        set_country_flag = wa_mp_fix_sov_30civs_done
         country_event = { id = wa_mp_fix_sov_industry.1 }
       }
     }
