@@ -1,0 +1,245 @@
+add_namespace = wa_mp_fix_sov_industry
+
+country_event = {
+  id = wa_mp_fix_sov_industry.1
+  title = wa_sov_industry.1.t
+  desc = wa_sov_industry.1.d
+  picture = GFX_report_event_industry
+  is_triggered_only = yes
+
+  option = {
+    name = wa_sov_industry.1.a
+
+    202 = {
+      add_extra_state_shared_building_slots = 10
+      add_building_construction = {
+        type = industrial_complex
+        level = 10
+        instant_build = yes
+      }
+    }
+    206 = {
+      add_extra_state_shared_building_slots = 10
+      add_building_construction = {
+        type = industrial_complex
+        level = 10
+        instant_build = yes
+      }
+    }
+    966 = {
+      add_extra_state_shared_building_slots = 10
+      add_building_construction = {
+        type = industrial_complex
+        level = 10
+        instant_build = yes
+      }
+    }
+  }
+}
+
+country_event = {
+  id = wa_mp_fix_sov_industry.2
+  title = wa_sov_industry.2.t
+  desc = wa_sov_industry.2.d
+  picture = GFX_report_event_industry
+  is_triggered_only = yes
+
+  option = {
+    name = wa_sov_industry.1=2.a
+
+    202 = {
+      add_extra_state_shared_building_slots = 10
+      add_building_construction = {
+        type = arms_factory
+        level = 10
+        instant_build = yes
+      }
+    }
+    206 = {
+      add_extra_state_shared_building_slots = 10
+      add_building_construction = {
+        type = arms_factory
+        level = 10
+        instant_build = yes
+      }
+    }
+    966 = {
+      add_extra_state_shared_building_slots = 10
+      add_building_construction = {
+        type = arms_factory
+        level = 10
+        instant_build = yes
+      }
+    }
+  }
+}
+
+country_event = {
+  id = wa_mp_fix_sov_industry.3
+  is_triggered_only = yes
+  title = wa_sov_infra.3.t
+  desc  = wa_sov_infra.3.d
+  picture = GFX_report_event_industry
+
+  option = {
+    name = wa_sov_infra.3.a
+
+    653 = {
+      add_building_construction = {
+        type = infrastructure
+        level = 2
+        instant_build = yes
+      }
+    }
+
+    572 = {
+      add_building_construction = {
+        type = infrastructure
+        level = 2
+        instant_build = yes
+      }
+    }
+
+    876 = {
+      add_building_construction = {
+        type = infrastructure
+        level = 2
+        instant_build = yes
+      }
+    }
+    402 = {
+      add_building_construction = {
+        type = infrastructure
+        level = 2
+        instant_build = yes
+      }
+    }
+    583 = {
+      add_building_construction = {
+        type = infrastructure
+        level = 2
+        instant_build = yes
+      }
+    }
+    586 = {
+      add_building_construction = {
+        type = infrastructure
+        level = 2
+        instant_build = yes
+      }
+    }
+    589 = {
+      add_building_construction = {
+        type = infrastructure
+        level = 2
+        instant_build = yes
+      }
+    }
+    588 = {
+      add_building_construction = {
+        type = infrastructure
+        level = 2
+        instant_build = yes
+      }
+    }
+    40 = {
+      add_building_construction = {
+        type = infrastructure
+        level = 2
+        instant_build = yes
+      }
+    }
+    570 = {
+      add_building_construction = {
+        type = infrastructure
+        level = 2
+        instant_build = yes
+      }
+    }
+    579 = {
+      add_building_construction = {
+        type = infrastructure
+        level = 2
+        instant_build = yes
+      }
+    }
+    577 = {
+      add_building_construction = {
+        type = infrastructure
+        level = 2
+        instant_build = yes
+      }
+    }
+    578 = {
+      add_building_construction = {
+        type = infrastructure
+        level = 2
+        instant_build = yes
+      }
+    }
+    569 = {
+      add_building_construction = {
+        type = infrastructure
+        level = 2
+        instant_build = yes
+      }
+    }
+    564 = {
+      add_building_construction = {
+        type = infrastructure
+        level = 2
+        instant_build = yes
+      }
+    }
+    565 = {
+      add_building_construction = {
+        type = infrastructure
+        level = 2
+        instant_build = yes
+      }
+    }
+    563 = {
+      add_building_construction = {
+        type = infrastructure
+        level = 2
+        instant_build = yes
+      }
+    }
+    561 = {
+      add_building_construction = {
+        type = infrastructure
+        level = 2
+        instant_build = yes
+      }
+    }
+    657 = {
+      add_building_construction = {
+        type = infrastructure
+        level = 2
+        instant_build = yes
+      }
+    }
+    560 = {
+      add_building_construction = {
+        type = infrastructure
+        level = 2
+        instant_build = yes
+      }
+    }
+    409 = {
+      add_building_construction = {
+        type = infrastructure
+        level = 2
+        instant_build = yes
+      }
+    }
+    408 = {
+      add_building_construction = {
+        type = infrastructure
+        level = 2
+        instant_build = yes
+      }
+    }
+  }
+}
+
