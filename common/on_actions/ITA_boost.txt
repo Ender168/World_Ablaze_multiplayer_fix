@@ -32,7 +32,7 @@ on_actions = {
         # START ITALY "FOCUS -> BUILDINGS" WATCHER
         # (buildings will be added when the corresponding focuses are completed)
         # =============================================================
-        ITA = { country_event = { id = wa_mp_ita_bld.10 days = 10 } }
+        ITA = { country_event = { id = wa_mp_fix_ita_bld days = 10 } }
       }
     }
   }
