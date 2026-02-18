@@ -12,15 +12,15 @@ l_english:
   wa_mp_fix_germany.1.d:0 "With France out of the fight, Germany can redirect manpower to new fronts."
   wa_mp_fix_germany.1.a:0 "Proceed."
   
-  wa_mp_fix_sov_industry.1.t: "Western Industrial Expansion: Riga, Minsk, Kyiv"
-  wa_mp_fix_sov_industry.1.d: "New construction brigades and equipment are redirected to the western industrial belt. To concentrate output where it matters most, factory construction is being fast-tracked in Riga, Minsk, and Kyiv."
-  wa_mp_fix_sov_industry.1.a: "Authorize the builds in Riga, Minsk, and Kyiv."
+  wa_mp_fix_sov_industry.1.t:0 "Western Industrial Expansion: Riga, Minsk, Kyiv"
+  wa_mp_fix_sov_industry.1.d:0 "New construction brigades and equipment are redirected to the western industrial belt. To concentrate output where it matters most, factory construction is being fast-tracked in Riga, Minsk, and Kyiv."
+  wa_mp_fix_sov_industry.1.a:0 "Authorize the builds in Riga, Minsk, and Kyiv."
   
-  wa_mp_fix_sov_industry.2.t: "Western Arsenal Program: Riga, Minsk, Kyiv"
-  wa_mp_fix_sov_industry.2.d: "Production is shifted toward military needs. New military plants in Riga, Minsk, and Kyiv will shorten delivery times and reduce strain on long-distance supply routes."
-  wa_mp_fix_sov_industry.2.a: "Expand the arsenal in Riga, Minsk, and Kyiv."
+  wa_mp_fix_sov_industry.2.t:0 "Western Arsenal Program: Riga, Minsk, Kyiv"
+  wa_mp_fix_sov_industry.2.d:0 "Production is shifted toward military needs. New military plants in Riga, Minsk, and Kyiv will shorten delivery times and reduce strain on long-distance supply routes."
+  wa_mp_fix_sov_industry.2.a:0 "Expand the arsenal in Riga, Minsk, and Kyiv."
   
-  wa_mp_fix_sov_industry.3.t: "Resource Corridor Beyond the Urals"
-  wa_mp_fix_sov_industry.3.d: "Engineering units are dispatched to expand roads, depots, and utilities around remote extraction hubs. Better logistics means more reliable output."
-  wa_mp_fix_sov_industry.3.a: "Send the engineers."
+  wa_mp_fix_sov_industry.3.t:0 "Resource Corridor Beyond the Urals"
+  wa_mp_fix_sov_industry.3.d:0 "Engineering units are dispatched to expand roads, depots, and utilities around remote extraction hubs. Better logistics means more reliable output."
+  wa_mp_fix_sov_industry.3.a:0 "Send the engineers."
 
