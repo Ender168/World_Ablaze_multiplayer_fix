@@ -32,6 +32,16 @@ on_actions = {
         country_event = { id = wa_mp_fix_sov_industry.3 }
       }
 
+      if = {
+        limit = {
+          tag = SOV
+          has_completed_focus = SOV_start_the_third_five_year_plan
+          NOT = { has_country_flag = wa_mp_fix_sov_south_mils_done }
+        }
+        set_country_flag = wa_mp_fix_sov_south_mils_done
+        country_event = { id = wa_mp_fix_sov_industry.3 }
+      }
+
     }
   }
 }
