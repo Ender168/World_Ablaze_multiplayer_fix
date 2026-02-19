@@ -1,5 +1,5 @@
 on_actions = {
-  on_focus_complete = {
+  on_monthly_SOV = {
     effect = {
 
       if = {
