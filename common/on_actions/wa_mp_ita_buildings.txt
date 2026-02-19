@@ -9,7 +9,7 @@ on_actions = {
           NOT = { FROM.FROM = { has_state_flag = wa_mp_ita_115_buildings_removed } }
         }
 
-        FROMFROM = {
+        FROM.FROM = {
 
           if = { limit = { has_state_flag = wa_mp_fix_ita_115_mil_granted }  remove_building = { type = arms_factory level = 20 } }
           if = { limit = { has_state_flag = wa_mp_fix_ita_115_civ_granted }  remove_building = { type = industrial_complex level = 20 } }
