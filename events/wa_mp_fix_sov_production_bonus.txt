@@ -1,4 +1,4 @@
-namespace = wa_mp_fix_sov_production_bonus
+add_namespace = wa_mp_fix_sov_production_bonus
 
 country_event = {
   id = wa_mp_fix_sov_production_bonus.1
