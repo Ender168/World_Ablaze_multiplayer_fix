@@ -39,7 +39,7 @@ on_actions = {
           NOT = { has_country_flag = wa_mp_fix_sov_south_mils_done }
         }
         set_country_flag = wa_mp_fix_sov_south_mils_done
-        country_event = { id = wa_mp_fix_sov_industry.3 }
+        country_event = { id = wa_mp_fix_sov_industry.4 }
       }
 
     }
