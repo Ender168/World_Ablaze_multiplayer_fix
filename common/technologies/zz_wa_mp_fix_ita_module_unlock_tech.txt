@@ -1,0 +1,18 @@
+wa_mp_fix_ita_unlock_370_armor_module = {
+  allow = { original_tag = ITA }
+  prerequisites = { ita_battleship_3 }
+
+  research_cost = 0
+  start_year = 1934
+
+  folder = {
+    name = ita_naval_folder
+    position = { x = 20 y = 12 }
+  }
+
+  enable_equipment_modules = {
+    wa_ita_ship_armor_370_140_plus75
+  }
+
+  ai_will_do = { factor = 0 }
+}
