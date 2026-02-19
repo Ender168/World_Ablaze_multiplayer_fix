@@ -30,6 +30,7 @@ wa_mp_fix_ita_oil_resources_libya = {
     }
   }
 
+  # As soon as Italy (Italian Lybia) has lost control (after focus), the modifier is PERMANENTLY deleted.
   remove_trigger = {
     has_global_flag = wa_mp_fix_ita_empire_developed
     NOT = {
