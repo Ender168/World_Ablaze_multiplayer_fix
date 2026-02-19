@@ -243,3 +243,32 @@ country_event = {
   }
 }
 
+country_event = {
+  id = wa_mp_fix_sov_industry.4
+  title = wa_mp_fix_sov_industry.4.t
+  desc = wa_mp_fix_sov_industry.4.d
+  picture = GFX_report_event_industry
+  is_triggered_only = yes
+
+  option = {
+    name = wa_mp_fix_sov_industry.4.a
+
+    234 = {
+      add_extra_state_shared_building_slots = 10
+      add_building_construction = {
+        type = arms_factory
+        level = 10
+        instant_build = yes
+      }
+    }
+    218 = {
+      add_extra_state_shared_building_slots = 10
+      add_building_construction = {
+        type = arms_factory
+        level = 10
+        instant_build = yes
+      }
+    }
+  }
+}
+
