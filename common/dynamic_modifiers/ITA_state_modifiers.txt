@@ -40,6 +40,6 @@ wa_mp_fix_ita_oil_resources_libya = {
       }
     }
   }
-  state_resource_oil = 10
+  state_resource_oil = 5
 }
 
