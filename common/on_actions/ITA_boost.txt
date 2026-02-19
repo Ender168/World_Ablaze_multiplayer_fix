@@ -36,4 +36,16 @@ on_actions = {
       }
     }
   }
+  on_focus_complete = {
+    effect = {
+      if = {
+        limit = {
+          tag = ITA
+          has_completed_focus = ITA_develop_the_empire
+          NOT = { has_global_flag = wa_mp_fix_ita_empire_developed }
+        }
+        set_global_flag = wa_mp_fix_ita_empire_developed
+      }
+    }
+  }
 }
