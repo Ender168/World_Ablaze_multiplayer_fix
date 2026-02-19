@@ -2,22 +2,56 @@ on_actions = {
 
   on_state_control_changed = {
     effect = {
+
+      # =============================================================
+      # STATE 115: remove granted MIL/CIV when Italy loses control
+      # =============================================================
       if = {
         limit = {
-          FROM = { tag = ITA }                       # Italy was the previous controller
-          FROM.FROM = { state = 115 }                 # The affected state is 115
-          NOT = { FROM.FROM = { has_state_flag = wa_mp_ita_115_buildings_removed } }
+          FROM = { tag = ITA }            # previous controller was Italy
+          FROM.FROM = {                   # the affected state
+            state = 115
+            OR = {
+              has_state_flag = wa_mp_fix_ita_115_mil_granted
+              has_state_flag = wa_mp_fix_ita_115_civ_granted
+            }
+          }
         }
 
         FROM.FROM = {
+          if = {
+            limit = { has_state_flag = wa_mp_fix_ita_115_mil_granted }
+            remove_building = { type = arms_factory level = 20 }
+            clr_state_flag = wa_mp_fix_ita_115_mil_granted
+          }
 
-          if = { limit = { has_state_flag = wa_mp_fix_ita_115_mil_granted }  remove_building = { type = arms_factory level = 20 } }
-          if = { limit = { has_state_flag = wa_mp_fix_ita_115_civ_granted }  remove_building = { type = industrial_complex level = 20 } }
-          if = { limit = { has_state_flag = wa_mp_fix_ita_115_dock_granted } remove_building = { type = dockyard level = 15 } }
-
-          set_state_flag = wa_mp_ita_115_buildings_removed
+          if = {
+            limit = { has_state_flag = wa_mp_fix_ita_115_civ_granted }
+            remove_building = { type = industrial_complex level = 20 }
+            clr_state_flag = wa_mp_fix_ita_115_civ_granted
+          }
         }
       }
+
+      # =============================================================
+      # STATE 1032: remove granted DOCKS when Italy loses control
+      # (your event grants docks in 1032, not 115)
+      # =============================================================
+      if = {
+        limit = {
+          FROM = { tag = ITA }            # previous controller was Italy
+          FROM.FROM = {
+            state = 1032
+            has_state_flag = wa_mp_fix_ita_1032_dock_granted
+          }
+        }
+
+        FROM.FROM = {
+          remove_building = { type = dockyard level = 15 }
+          clr_state_flag = wa_mp_fix_ita_1032_dock_granted
+        }
+      }
+
     }
   }
 
