@@ -63,17 +63,17 @@ country_event = {
         115 = { is_controlled_by = ITA }
       }
 
-      115 = {
+      1032 = {
         add_extra_state_shared_building_slots = 15
         add_building_construction = {
           type = dockyard
           level = 15
           instant_build = yes
         }
-        set_state_flag = wa_mp_fix_ita_115_dock_granted
+        set_state_flag = wa_mp_fix_ita_1032_dock_granted
       }
 
-      set_country_flag = wa_mp_fix_ita_115_dock_done
+      set_country_flag = wa_mp_fix_ita_1032_dock_done
     }
 
     # -------------------------------------------------------------
@@ -84,7 +84,7 @@ country_event = {
         OR = {
           NOT = { has_country_flag = wa_mp_fix_ita_115_mil_done }
           NOT = { has_country_flag = wa_mp_fix_ita_115_civ_done }
-          NOT = { has_country_flag = wa_mp_fix_ita_115_dock_done }
+          NOT = { has_country_flag = wa_mp_fix_ita_1032_dock_done }
         }
       }
       country_event = { id = wa_mp_fix_ita_bld.1 days = 10 }
