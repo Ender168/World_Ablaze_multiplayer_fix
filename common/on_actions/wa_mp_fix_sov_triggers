@@ -1,0 +1,14 @@
+on_actions = {
+  on_monthly_SOV = {
+    effect = {
+      if = {
+        limit = {
+          tag = ITA
+          has_completed_focus = SOV_pc_of_mechanical_engineering
+          NOT = { has_global_flag = wa_mp_fix_sov_pc_of_mechanical_engineerin }
+        }
+        set_global_flag = wa_mp_fix_sov_pc_of_mechanical_engineerin
+      }
+    }
+  }
+}
