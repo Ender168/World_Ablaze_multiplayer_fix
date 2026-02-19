@@ -5,7 +5,7 @@ on_actions = {
       if = {
         limit = {
           tag = SOV
-          has_completed_focus = SOV_evolve_our_urban_centers
+          has_completed_focus = SOV_evolve_our_urban_centres
           NOT = { has_country_flag = wa_mp_fix_sov_30civs_done }
         }
         set_country_flag = wa_mp_fix_sov_30civs_done
