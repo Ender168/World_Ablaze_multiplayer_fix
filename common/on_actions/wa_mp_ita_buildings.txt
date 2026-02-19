@@ -4,12 +4,12 @@ on_actions = {
     effect = {
 
       # =============================================================
-      # STATE 115: remove granted MIL/CIV when Italy loses control
+      # STATE 115: remove granted MIL/CIV + remove extra slots
       # =============================================================
       if = {
         limit = {
-          FROM = { tag = ITA }            # previous controller was Italy
-          FROM.FROM = {                   # the affected state
+          FROM = { tag = ITA }     # previous controller was Italy
+          FROM.FROM = {
             state = 115
             OR = {
               has_state_flag = wa_mp_fix_ita_115_mil_granted
@@ -19,27 +19,31 @@ on_actions = {
         }
 
         FROM.FROM = {
+
+          # MIL: remove 20 arms + remove 20 extra slots
           if = {
             limit = { has_state_flag = wa_mp_fix_ita_115_mil_granted }
             remove_building = { type = arms_factory level = 20 }
+            add_extra_state_shared_building_slots = -20
             clr_state_flag = wa_mp_fix_ita_115_mil_granted
           }
 
+          # CIV: remove 20 civ + remove 20 extra slots
           if = {
             limit = { has_state_flag = wa_mp_fix_ita_115_civ_granted }
             remove_building = { type = industrial_complex level = 20 }
+            add_extra_state_shared_building_slots = -20
             clr_state_flag = wa_mp_fix_ita_115_civ_granted
           }
         }
       }
 
       # =============================================================
-      # STATE 1032: remove granted DOCKS when Italy loses control
-      # (your event grants docks in 1032, not 115)
+      # STATE 1032: remove granted DOCKS + remove extra slots
       # =============================================================
       if = {
         limit = {
-          FROM = { tag = ITA }            # previous controller was Italy
+          FROM = { tag = ITA }
           FROM.FROM = {
             state = 1032
             has_state_flag = wa_mp_fix_ita_1032_dock_granted
@@ -48,6 +52,7 @@ on_actions = {
 
         FROM.FROM = {
           remove_building = { type = dockyard level = 15 }
+          add_extra_state_shared_building_slots = -15
           clr_state_flag = wa_mp_fix_ita_1032_dock_granted
         }
       }
