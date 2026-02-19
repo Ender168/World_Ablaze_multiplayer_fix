@@ -20,7 +20,7 @@ wa_ita_littorio_reinforced_armor = { # Littorio armor reinforcement package
 # On research, grant a ready-to-produce Littorio design using the reinforced armor module.
 	on_research_complete = {
 		create_equipment_variant = {
-			name = "Littorio Class. (Reinforced Armor)"
+			name = "Littorio Class.(Reinforced Armor)"
 			type = ita_battleship_hull_3
 			parent_version = 0
 			modules = {
