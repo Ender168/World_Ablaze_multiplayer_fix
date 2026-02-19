@@ -84,7 +84,7 @@ Adds **military factories** to southern armaments hubs:
 
 #### B) Libya oil program (focus-dependent, control-dependent)
 After completing **вЂњDevelop the EmpireвЂќ**, Libya oil modifiers activate:
-- **7 Libyan states:** **+10 Oil each** (total **+70 Oil**)  
+- **7 Libyan states:** **+5 Oil each** (total **+35 Oil**)  
 - Active while controlled by **Italy / Italian Libya**.  
 - If Italy loses control **after** the focus, the modifier is removed.
 
