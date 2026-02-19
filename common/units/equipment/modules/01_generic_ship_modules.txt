@@ -5319,7 +5319,7 @@ equipment_modules = {
 		gfx = heavy_armor
 
 		add_stats = {
-			armor_value = 325
+			armor_value = 395
 			naval_torpedo_damage_reduction_factor = 0.1
 			#naval_torpedo_enemy_critical_chance_factor = -0.20
 			#naval_torpedo_damage_reduction_factor = 0.23
@@ -6244,4 +6244,5 @@ equipment_modules = {
 			coal = 7
 			chromium = 1
 		}
+
 	}
