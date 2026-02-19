@@ -30,7 +30,6 @@ wa_mp_fix_ita_oil_resources_libya = {
     }
   }
 
-  # Удаляем, если после открытия флага Ливия больше не под Италией/ИТЛ
   remove_trigger = {
     has_global_flag = wa_mp_fix_ita_empire_developed
     NOT = {
