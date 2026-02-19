@@ -3,11 +3,11 @@ on_actions = {
     effect = {
       if = {
         limit = {
-          tag = ITA
           has_completed_focus = SOV_pc_of_mechanical_engineering
-          NOT = { has_country_flag = wa_mp_fix_sov_pc_of_mechanical_engineerin }
+          NOT = { has_country_flag = wa_mp_fix_sov_pc_of_mechanical_engineering_done }
         }
-        set_country_flag = wa_mp_fix_sov_pc_of_mechanical_engineerin
+        set_country_flag = wa_mp_fix_sov_pc_of_mechanical_engineering_done
+        country_event = { id = wa_mp_fix_sov_production_bonus.1 }
       }
     }
   }
