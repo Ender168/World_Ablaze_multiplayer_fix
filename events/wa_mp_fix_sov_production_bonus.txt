@@ -1,0 +1,19 @@
+namespace = wa_mp_fix_sov_production_bonus
+
+country_event = {
+  id = wa_mp_fix_sov_production_bonus.1
+  title = wa_mp_fix_sov_production_bonus.1.t
+  desc  = wa_mp_fix_sov_production_bonus.1.d
+  picture = GFX_report_event_generic_factory
+
+  is_triggered_only = yes
+
+  option = {
+    name = wa_mp_fix_sov_production_bonus.1.a
+
+    if = {
+      limit = { NOT = { has_idea = wa_mp_fix_sov_mass_reserve_stockpiles } }
+      add_ideas = wa_mp_fix_sov_mass_reserve_stockpiles
+    }
+  }
+}
