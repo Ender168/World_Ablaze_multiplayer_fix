@@ -36,7 +36,7 @@ One-time effect.
 ### 4) Soviet Union (SOV): focus-gated industry + infrastructure
 These effects trigger **once** after the listed focuses are completed.
 
-#### A) “Evolve Our Urban Centres”
+#### A) вЂњEvolve Our Urban CentresвЂќ
 Adds **civilian factories** to western hubs:
 - **Kyiv (state 202): +10 Civs +10 slots**
 - **Minsk (state 206): +10 Civs +10 slots**
@@ -44,7 +44,7 @@ Adds **civilian factories** to western hubs:
 
 **Total:** **+30 civilian factories** and **+30 building slots**
 
-#### B) “Extend the Working Week”
+#### B) вЂњExtend the Working WeekвЂќ
 Adds **military factories** to the same hubs:
 - **Kyiv (state 202): +10 Mils +10 slots**
 - **Minsk (state 206): +10 Mils +10 slots**
@@ -52,12 +52,27 @@ Adds **military factories** to the same hubs:
 
 **Total:** **+30 military factories** and **+30 building slots**
 
-#### C) “A Secure Industrial Base”
+#### C) вЂњA Secure Industrial BaseвЂќ
 Adds **infrastructure** across a set of rear/resource states:
 - **+2 Infrastructure** in **22 states**  
   (IDs: 653, 572, 876, 402, 583, 586, 589, 588, 40, 570, 579, 577, 578, 569, 564, 565, 563, 561, 657, 560, 409, 408)
 
-**Total:** 22 × 2 = **+44 infrastructure levels**
+**Total:** 22 Г— 2 = **+44 infrastructure levels**
+
+#### D) вЂњPC of Mechanical EngineeringвЂќ
+Grants a Soviet national spirit focused on mobilization stockpiles:
+- **-30% production cost** for **Infantry Equipment** and **Heavy Infantry Equipment**
+- **-20% production cost** for **Artillery** and **Support Equipment**
+
+Applied once after the focus is completed (monthly check).
+
+#### E) вЂњSouthern Arsenal ExpansionвЂќ
+Adds **military factories** to southern armaments hubs:
+- **Krasnodar (state 234): +10 Mils +10 slots**
+- **Rostov-on-Don (state 218): +10 Mils +10 slots**
+
+**Total:** **+20 military factories** and **+20 building slots**
+
 
 ---
 
@@ -68,7 +83,7 @@ Adds **infrastructure** across a set of rear/resource states:
 - Active **only while Italy controls the state** (removed if control is lost).
 
 #### B) Libya oil program (focus-dependent, control-dependent)
-After completing **“Develop the Empire”**, Libya oil modifiers activate:
+After completing **вЂњDevelop the EmpireвЂќ**, Libya oil modifiers activate:
 - **7 Libyan states:** **+10 Oil each** (total **+70 Oil**)  
 - Active while controlled by **Italy / Italian Libya**.  
 - If Italy loses control **after** the focus, the modifier is removed.
@@ -76,13 +91,13 @@ After completing **“Develop the Empire”**, Libya oil modifiers activate:
 #### C) Instant buildings from Italian focuses
 When the relevant focus is completed (and Italy controls the required state), buildings are added instantly:
 
-- After **“Italian Army”**:
+- After **вЂњItalian ArmyвЂќ**:
   - **State Northern Sicily:** **+20 Military Factories** + **+20 slots**
 
-- After **“Italian Highways”**:
+- After **вЂњItalian HighwaysвЂќ**:
   - **State Northern Sicily:** **+20 Civilian Factories** + **+20 slots**
 
-- After **“Italian Navy”**:
+- After **вЂњItalian NavyвЂќ**:
   - **State Southern Sicily:** **+15 Dockyards** + **+15 slots**
 
 Anti-snipe behavior:
@@ -93,17 +108,3 @@ The heavy ship armor module **ship_armor_370_140** is buffed:
 - **Armor: was 323 become 395**
 
 Net effect: heavy armor is meaningfully stronger, but comes with real cost/speed trade-offs.
-
----
-
-## Notes / Status
-- A “German torpedo crisis” idea exists in the files, but it is **currently disabled** (no gameplay effect).
-
-## Installation
-Enable:
-1) **World Ablaze**
-2) **World Ablaze Multiplayer Fix (this submod)**
-
-Place the submod **after** World Ablaze in load order.
-
----
