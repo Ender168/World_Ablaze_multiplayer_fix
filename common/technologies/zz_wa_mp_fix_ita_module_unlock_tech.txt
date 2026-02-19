@@ -1,5 +1,9 @@
 wa_mp_fix_ita_unlock_370_armor_module = {
-  allow = { original_tag = ITA }
+    allow = {
+    original_tag = ITA
+    always = no
+  }
+
   prerequisites = { ita_battleship_3 }
 
   research_cost = 0
