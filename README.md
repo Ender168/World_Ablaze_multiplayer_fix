@@ -88,7 +88,7 @@ When the relevant focus is completed (and Italy controls the required state), bu
 Anti-snipe behavior:
 - If Italy later **loses control of state 115**, any granted factories tied to that state are removed (prevents an opponent from inheriting free industry there).
 
-#### D) Naval module rebalance (global)
+#### D) Naval armor module for battleships (Littorio)
 The heavy ship armor module **ship_armor_370_140** is buffed:
 - **Armor: was 323 become 395**
 
