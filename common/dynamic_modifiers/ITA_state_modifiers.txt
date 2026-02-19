@@ -22,17 +22,24 @@ wa_mp_fix_ita_boost_resources = {
 wa_mp_fix_ita_oil_resources_libya = {
   icon = GFX_modifiers_increased_metal_production
 
-  # Resources work only after the focus and only while Italy controls the state
   enable = {
-    is_controlled_by = ITA
-    ITA = { has_completed_focus = ITA_develop_the_empire }
+    has_global_flag = wa_mp_fix_ita_empire_developed
+    OR = {
+      is_controlled_by = ITA
+      is_controlled_by = ITL
+    }
   }
 
-  # As soon as Italy has lost control (after focus), the modifier is PERMANENTLY deleted.
+  # Удаляем, если после открытия флага Ливия больше не под Италией/ИТЛ
   remove_trigger = {
-    ITA = { has_completed_focus = ITA_develop_the_empire }
-    NOT = { is_controlled_by = ITA }
+    has_global_flag = wa_mp_fix_ita_empire_developed
+    NOT = {
+      OR = {
+        is_controlled_by = ITA
+        is_controlled_by = ITL
+      }
+    }
   }
-
   state_resource_oil = 10
 }
+
