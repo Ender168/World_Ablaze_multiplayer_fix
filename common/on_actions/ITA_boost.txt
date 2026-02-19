@@ -48,4 +48,11 @@ on_actions = {
       }
     }
   }
+  on_startup = {
+    effect = {
+      ITA = { country_event = { id = wa_mp_fix_ita.1 } }
+    }
+  }
+}
+
 }
