@@ -5,7 +5,7 @@ on_actions = {
       if = {
         limit = {
           ROOT = { tag = FRA }
-          GER = { exists = yes is_in_war_with = ROOT }
+          GER = { exists = yes has_war_with = ROOT }
           NOT = { has_global_flag = wa_mp_fix_ger_manpower_from_fra_capitulation_given }
         }
 
