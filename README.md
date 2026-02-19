@@ -1,7 +1,7 @@
 # World Ablaze Multiplayer Fix (Submod)
 
 Small balance/QoL submod for **World Ablaze** multiplayer games.  
-Focus: smoothing out a few MP pain points with lightweight scripted effects (startup + monthly checks, no heavy polling).
+Focus: smoothing out a few MP pain points
 
 ## Requirements
 - **World Ablaze (main mod)** must be enabled.
