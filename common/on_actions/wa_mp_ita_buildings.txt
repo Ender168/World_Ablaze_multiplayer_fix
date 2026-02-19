@@ -5,8 +5,8 @@ on_actions = {
       if = {
         limit = {
           FROM = { tag = ITA }                       # Italy was the previous controller
-          FROMFROM = { state = 115 }                 # The affected state is 115
-          NOT = { FROMFROM = { has_state_flag = wa_mp_ita_115_buildings_removed } }
+          FROM.FROM = { state = 115 }                 # The affected state is 115
+          NOT = { FROM.FROM = { has_state_flag = wa_mp_ita_115_buildings_removed } }
         }
 
         FROMFROM = {
