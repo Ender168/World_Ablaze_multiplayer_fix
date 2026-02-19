@@ -34,6 +34,8 @@ on_actions = {
         # =============================================================
         ITA = { country_event = { id = wa_mp_fix_ita_bld.1 days = 10 } }
       }
+      # Unlock armor module tech (your wa_mp_fix_ita.1 event)
+      ITA = { country_event = { id = wa_mp_fix_ita.1 hours = 1 } }
     }
   }
   on_monthly_ITA = {
@@ -48,11 +50,4 @@ on_actions = {
       }
     }
   }
-  on_startup = {
-    effect = {
-      ITA = { country_event = { id = wa_mp_fix_ita.1 } }
-    }
-  }
-}
-
 }
