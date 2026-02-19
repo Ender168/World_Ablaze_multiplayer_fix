@@ -24,8 +24,15 @@ l_english:
   wa_mp_fix_sov_industry.3.t:0 "Resource Corridor Beyond the Urals"
   wa_mp_fix_sov_industry.3.d:0 "Engineering units are dispatched to expand roads, depots, and utilities around remote extraction hubs. Better logistics means more reliable output."
   wa_mp_fix_sov_industry.3.a:0 "Send the engineers."
-  
-  wa_ita_littorio_reinforced_armor:0 "Littorio: Reinforced Armor Scheme"
-  wa_ita_littorio_reinforced_armor_desc:0 "A dedicated reinforcement package for the Littorio-class battleship design. Unlocks an Italy-only heavy armor module and grants a ready-to-produce Littorio variant with +75 armor."
-  wa_ita_ship_armor_370_140_plus75:0 "Reinforced Heavy Armor 370/140 (+75)"
-  wa_ita_ship_armor_370_140_plus75_desc:0 "An Italy-only reinforced heavy armor package for Littorio-class designs, trading speed and cost for substantially higher protection."
+
+  wa_mp_fix_ita_boost_resources:0 "Steel Mobilized for the Fleet"
+  wa_mp_fix_ita_boost_resources_desc:0 "Italy has redirected steel output in this state to naval construction and refit programs, tightening civilian supply to keep the shipyards fed."
+
+  wa_mp_fix_sov_mass_reserve_stockpiles_tt:0 "Gain national spirit: §YMass Reserve Stockpiles§!."
+  wa_mp_fix_sov_production_bonus.1.t:0 "Mass Reserve Stockpiles"
+  wa_mp_fix_sov_production_bonus.1.d:0 "The Soviet force system is built around mobilization. In peacetime, formations keep only a cadre and are meant to be filled out from the reserve in wartime. That demands huge pre-war stockpiles: rifles, heavy infantry kit, artillery and support equipment must be ready before the call-up begins."
+  wa_mp_fix_sov_production_bonus.1.a:0 "Issue the production orders."
+
+  wa_mp_fix_sov_industry.4.t:0 "Southern Arsenal Expansion"
+  wa_mp_fix_sov_industry.4.d:0 "The southern industrial belt is ordered to shift from ‘capacity on paper’ to steel on rails. Krasnodar and Rostov-on-Don are designated as priority hubs for armaments output: new shop floors are laid out, machine tools reallocated, and entire production lines standardized for fast throughput. The logic is blunt. These cities sit close enough to the rail spine to feed the front quickly, yet far enough to avoid the immediate strain of the western bottlenecks. From rifle parts and support gear to artillery components, the South will now work in wartime rhythms even before the war arrives."
+  wa_mp_fix_sov_industry.4.a:0 "Turn the South into an arsenal."
