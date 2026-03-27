@@ -21,12 +21,12 @@ on_actions = {
             add_timed_idea = { idea = wa_mp_fix_land_mastery_boost days = 800 }
           }
         }
-        JAP = {
-          if = {
-            limit = { NOT = { has_idea = wa_mp_fix_land_mastery_boost } }
-            add_timed_idea = { idea = wa_mp_fix_land_mastery_boost days = 800 }
-          }
-        }
+#        JAP = {
+#          if = {
+#            limit = { NOT = { has_idea = wa_mp_fix_land_mastery_boost } }
+#            add_timed_idea = { idea = wa_mp_fix_land_mastery_boost days = 800 }
+#          }
+#        }
       }
     }
   }
