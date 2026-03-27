@@ -45,7 +45,7 @@ country_event = {
   is_triggered_only = yes
 
   option = {
-    name = wa_mp_fix_industry.2.a
+    name = wa_mp_fix_sov_industry.2.a
 
     202 = {
       add_extra_state_shared_building_slots = 10
