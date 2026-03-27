@@ -29,6 +29,9 @@ l_english:
   wa_mp_fix_ita_boost_resources_desc:0 "Italy has redirected steel output in this state to naval construction and refit programs, tightening civilian supply to keep the shipyards fed."
 
   wa_mp_fix_sov_mass_reserve_stockpiles_tt:0 "Gain national spirit: §YMass Reserve Stockpiles§!."
+  wa_mp_fix_sov_mass_reserve_stockpiles:0 "Mass Reserve Stockpiles"
+  wa_mp_fix_sov_mass_reserve_stockpiles_desc:0 "The Soviet force system is built around mobilization. In peacetime, formations keep only a cadre and are meant to be filled out from the reserve in wartime. That demands huge pre-war stockpiles: rifles, heavy infantry kit, artillery and support equipment must be ready before the call-up begins."
+  
   wa_mp_fix_sov_production_bonus.1.t:0 "Mass Reserve Stockpiles"
   wa_mp_fix_sov_production_bonus.1.d:0 "The Soviet force system is built around mobilization. In peacetime, formations keep only a cadre and are meant to be filled out from the reserve in wartime. That demands huge pre-war stockpiles: rifles, heavy infantry kit, artillery and support equipment must be ready before the call-up begins."
   wa_mp_fix_sov_production_bonus.1.a:0 "Issue the production orders."
