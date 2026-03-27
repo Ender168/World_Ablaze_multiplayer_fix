@@ -11,7 +11,7 @@ Focus: smoothing out a few MP pain points
 
 ### 1) Axis land doctrine mastery boost (GER / ITA / JAP)
 From **1939 onward** (scripted date gate), **Germany, Italy, and Japan** receive a national spirit that:
-- **+200% Land Doctrine Mastery Gain**
+- **+100% Land Doctrine Mastery Gain**
 
 Applied once, automatically.
 
