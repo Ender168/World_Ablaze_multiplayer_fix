@@ -59,7 +59,7 @@ country_event = {
     if = {
       limit = {
         has_completed_focus = ITA_italian_navy
-        NOT = { has_country_flag = wa_mp_fix_ita_115_dock_done }
+        NOT = { has_country_flag = wa_mp_fix_ita_1032_dock_done }
         115 = { is_controlled_by = ITA }
       }
 
