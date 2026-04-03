@@ -1,0 +1,27 @@
+wa_mp_fix_GER_doctrine_mastery_category = {
+	priority = 30
+
+	icon = generic_military
+
+	allowed = {
+		original_tag = GER
+	}
+
+	visible = {
+		original_tag = GER
+	}
+}
+
+wa_mp_fix_JAP_doctrine_mastery_category = {
+	priority = 30
+
+	icon = generic_military
+
+	allowed = {
+		original_tag = JAP
+	}
+
+	visible = {
+		original_tag = JAP
+	}
+}
