@@ -1,16 +1,8 @@
 wa_mp_fix_GER_doctrine_mastery_category = {
-	icon = generic_military
-
-	allowed = {
-		original_tag = GER
-	}
-
-	visible = {
-		original_tag = GER
-	}
 
 	GER_free_armour_mastery = {
 		priority = 310
+
 		icon = generic_military
 
 		ai_will_do = {
@@ -21,8 +13,7 @@ wa_mp_fix_GER_doctrine_mastery_category = {
 			original_tag = GER
 		}
 
-		visible = {
-			original_tag = GER
+		available = {
 			OR = {
 				NOT = { has_completed_track = tier_0_armour }
 				NOT = { has_completed_track = tier_1_armour }
@@ -30,7 +21,8 @@ wa_mp_fix_GER_doctrine_mastery_category = {
 			}
 		}
 
-		available = {
+		visible = {
+			original_tag = GER
 			OR = {
 				NOT = { has_completed_track = tier_0_armour }
 				NOT = { has_completed_track = tier_1_armour }
@@ -74,18 +66,10 @@ wa_mp_fix_GER_doctrine_mastery_category = {
 }
 
 wa_mp_fix_JAP_doctrine_mastery_category = {
-	icon = generic_military
-
-	allowed = {
-		original_tag = JAP
-	}
-
-	visible = {
-		original_tag = JAP
-	}
 
 	JAP_free_infantry_mastery = {
 		priority = 310
+
 		icon = generic_military
 
 		ai_will_do = {
@@ -96,8 +80,7 @@ wa_mp_fix_JAP_doctrine_mastery_category = {
 			original_tag = JAP
 		}
 
-		visible = {
-			original_tag = JAP
+		available = {
 			OR = {
 				NOT = { has_completed_track = tier_0_infantry }
 				NOT = { has_completed_track = tier_1_infantry }
@@ -105,7 +88,8 @@ wa_mp_fix_JAP_doctrine_mastery_category = {
 			}
 		}
 
-		available = {
+		visible = {
+			original_tag = JAP
 			OR = {
 				NOT = { has_completed_track = tier_0_infantry }
 				NOT = { has_completed_track = tier_1_infantry }
