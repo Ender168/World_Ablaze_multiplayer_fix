@@ -31,6 +31,7 @@ l_english:
   wa_mp_fix_sov_mass_reserve_stockpiles_tt:0 "Gain national spirit: §YMass Reserve Stockpiles§!."
   wa_mp_fix_sov_mass_reserve_stockpiles:0 "Mass Reserve Stockpiles"
   wa_mp_fix_sov_mass_reserve_stockpiles_desc:0 "The Soviet force system is built around mobilization. In peacetime, formations keep only a cadre and are meant to be filled out from the reserve in wartime. That demands huge pre-war stockpiles: rifles, heavy infantry kit, artillery and support equipment must be ready before the call-up begins."
+
   
   wa_mp_fix_sov_production_bonus.1.t:0 "Mass Reserve Stockpiles"
   wa_mp_fix_sov_production_bonus.1.d:0 "The Soviet force system is built around mobilization. In peacetime, formations keep only a cadre and are meant to be filled out from the reserve in wartime. That demands huge pre-war stockpiles: rifles, heavy infantry kit, artillery and support equipment must be ready before the call-up begins."
@@ -39,3 +40,15 @@ l_english:
   wa_mp_fix_sov_industry.4.t:0 "Southern Arsenal Expansion"
   wa_mp_fix_sov_industry.4.d:0 "The southern industrial belt is ordered to shift from ‘capacity on paper’ to steel on rails. Krasnodar and Rostov-on-Don are designated as priority hubs for armaments output: new shop floors are laid out, machine tools reallocated, and entire production lines standardized for fast throughput. The logic is blunt. These cities sit close enough to the rail spine to feed the front quickly, yet far enough to avoid the immediate strain of the western bottlenecks. From rifle parts and support gear to artillery components, the South will now work in wartime rhythms even before the war arrives."
   wa_mp_fix_sov_industry.4.a:0 "Turn the South into an arsenal."
+  
+  wa_mp_fix_GER_doctrine_mastery_category:0 "German Doctrine Mastery"
+  wa_mp_fix_GER_doctrine_mastery_category_desc:0 "Special decisions related to German doctrine development."
+  
+  GER_free_armour_mastery:0 "Expand Armour Doctrine Expertise"
+  GER_free_armour_mastery_desc:0 "Gain 100 free mastery in the next uncompleted armour doctrine track."
+
+  wa_mp_fix_JAP_doctrine_mastery_category:0 "Japanese Doctrine Mastery"
+  wa_mp_fix_JAP_doctrine_mastery_category_desc:0 "Special decisions related to Japanese doctrine development."
+
+  JAP_free_infantry_mastery:0 "Expand Infantry Doctrine Expertise"
+  JAP_free_infantry_mastery_desc:0 "Gain 100 free mastery in the next uncompleted infantry doctrine track."
