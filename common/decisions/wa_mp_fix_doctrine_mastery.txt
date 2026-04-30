@@ -1,69 +1,69 @@
-wa_mp_fix_GER_doctrine_mastery_category = {
-
-	GER_free_armour_mastery = {
-		priority = 310
-
-		icon = generic_military
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		allowed = {
-			original_tag = GER
-		}
-
-		available = {
-			OR = {
-				NOT = { has_completed_track = tier_0_armour }
-				NOT = { has_completed_track = tier_1_armour }
-				NOT = { has_completed_track = tier_2_armour }
-			}
-		}
-
-		visible = {
-			original_tag = GER
-			OR = {
-				NOT = { has_completed_track = tier_0_armour }
-				NOT = { has_completed_track = tier_1_armour }
-				NOT = { has_completed_track = tier_2_armour }
-			}
-		}
-
-		cost = 0
-		fire_only_once = yes
-
-		complete_effect = {
-			if = {
-				limit = {
-					NOT = { has_completed_track = tier_0_armour }
-				}
-				add_mastery = {
-					amount = 100
-					track = tier_0_armour
-				}
-			}
-			else_if = {
-				limit = {
-					NOT = { has_completed_track = tier_1_armour }
-				}
-				add_mastery = {
-					amount = 100
-					track = tier_1_armour
-				}
-			}
-			else_if = {
-				limit = {
-					NOT = { has_completed_track = tier_2_armour }
-				}
-				add_mastery = {
-					amount = 100
-					track = tier_2_armour
-				}
-			}
-		}
-	}
-}
+#wa_mp_fix_GER_doctrine_mastery_category = {
+#
+#	GER_free_armour_mastery = {
+#		priority = 310
+#
+#		icon = generic_military
+#
+#		ai_will_do = {
+#			factor = 100
+#		}
+#
+#		allowed = {
+#			original_tag = GER
+#		}
+#
+#		available = {
+#			OR = {
+#				NOT = { has_completed_track = tier_0_armour }
+#				NOT = { has_completed_track = tier_1_armour }
+#				NOT = { has_completed_track = tier_2_armour }
+#			}
+#		}
+#
+#		visible = {
+#			original_tag = GER
+#			OR = {
+#				NOT = { has_completed_track = tier_0_armour }
+#				NOT = { has_completed_track = tier_1_armour }
+#				NOT = { has_completed_track = tier_2_armour }
+#			}
+#		}
+#
+#		cost = 0
+#		fire_only_once = yes
+#
+#		complete_effect = {
+#			if = {
+#				limit = {
+#					NOT = { has_completed_track = tier_0_armour }
+#				}
+#				add_mastery = {
+#					amount = 100
+#					track = tier_0_armour
+#				}
+#			}
+#			else_if = {
+#				limit = {
+#					NOT = { has_completed_track = tier_1_armour }
+#				}
+#				add_mastery = {
+#					amount = 100
+#					track = tier_1_armour
+#				}
+#			}
+#			else_if = {
+#				limit = {
+#					NOT = { has_completed_track = tier_2_armour }
+#				}
+#				add_mastery = {
+#					amount = 100
+#					track = tier_2_armour
+#				}
+#			}
+#		}
+#	}
+#}
 
 wa_mp_fix_JAP_doctrine_mastery_category = {
 
