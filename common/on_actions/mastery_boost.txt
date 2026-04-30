@@ -1,33 +1,33 @@
-on_actions = {
-  on_monthly_GER = {
-    effect = {
-      if = {
-        limit = {
-          tag = GER
-          date > 1938.12.12
-          NOT = { has_global_flag = axis_mastery_applied_1939 }
-        }
-        set_global_flag = axis_mastery_applied_1939
-
-        GER = {
-          if = {
-            limit = { NOT = { has_idea = wa_mp_fix_land_mastery_boost } }
-            add_timed_idea = { idea = wa_mp_fix_land_mastery_boost days = 800 }
-          }
-        }
-        ITA = {
-          if = {
-            limit = { NOT = { has_idea = wa_mp_fix_land_mastery_boost } }
-            add_timed_idea = { idea = wa_mp_fix_land_mastery_boost days = 800 }
-          }
-        }
+#on_actions = {
+#  on_monthly_GER = {
+#    effect = {
+#      if = {
+#        limit = {
+#          tag = GER
+#          date > 1938.12.12
+#          NOT = { has_global_flag = axis_mastery_applied_1939 }
+#        }
+#        set_global_flag = axis_mastery_applied_1939
+#
+#        GER = {
+#          if = {
+#            limit = { NOT = { has_idea = wa_mp_fix_land_mastery_boost } }
+#            add_timed_idea = { idea = wa_mp_fix_land_mastery_boost days = 800 }
+#          }
+#        }
+#        ITA = {
+#          if = {
+#            limit = { NOT = { has_idea = wa_mp_fix_land_mastery_boost } }
+#            add_timed_idea = { idea = wa_mp_fix_land_mastery_boost days = 800 }
+#          }
+#        }
 #        JAP = {
 #          if = {
 #            limit = { NOT = { has_idea = wa_mp_fix_land_mastery_boost } }
 #            add_timed_idea = { idea = wa_mp_fix_land_mastery_boost days = 800 }
 #          }
 #        }
-      }
-    }
-  }
-}
+#      }
+#    }
+#  }
+#}
